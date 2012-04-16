@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 45;
+	objects = {
+/* Begin PBXBuildFile section */
+		53C944800000000000000000 = {isa = PBXBuildFile; fileRef = 82F3BBC00000000000000000; };
+		380C6C000000000000000000 = {isa = PBXBuildFile; fileRef = D95877000000000000000000; };
+		1C4F93800000000000000000 = {isa = PBXBuildFile; fileRef = 2FBD32400000000000000000; };
+		919F59000000000000000000 = {isa = PBXBuildFile; fileRef = 89501F400000000000000000; };
+		75E280800000000000000000 = {isa = PBXBuildFile; fileRef = 8C7E51000000000000000000; };
+		3E68CF800000000000000000 = {isa = PBXBuildFile; fileRef = 3C75F9400000000000000000; };
+		22ABF7000000000000000000 = {isa = PBXBuildFile; fileRef = 92DAB4800000000000000000; };
+		EB3246000000000000000000 = {isa = PBXBuildFile; fileRef = EF9BD3400000000000000000; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3151AC00000000000000000 = {isa = PBXFileReference; name = Hello_ComplexUniversal; path = Hello_ComplexUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F3BBC00000000000000000 = {isa = PBXFileReference; name = Screens/HomeScreen_iPad.xib; path = Screens/HomeScreen_iPad.xib; sourceTree = "<group>"; };
+		D95877000000000000000000 = {isa = PBXFileReference; name = Screens/HomeScreen_iPhone.xib; path = Screens/HomeScreen_iPhone.xib; sourceTree = "<group>"; };
+		2FBD32400000000000000000 = {isa = PBXFileReference; name = HomeScreen_iPhone.h; path = HomeScreen_iPhone.h; sourceTree = "<group>"; };
+		89501F400000000000000000 = {isa = PBXFileReference; name = HomeScreen_iPhone.m; path = HomeScreen_iPhone.m; sourceTree = "<group>"; };
+		8C7E51000000000000000000 = {isa = PBXFileReference; name = HomeScreen_iPad.h; path = HomeScreen_iPad.h; sourceTree = "<group>"; };
+		3C75F9400000000000000000 = {isa = PBXFileReference; name = HomeScreen_iPad.m; path = HomeScreen_iPad.m; sourceTree = "<group>"; };
+		92DAB4800000000000000000 = {isa = PBXFileReference; name = AppDelegate.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9BD3400000000000000000 = {isa = PBXFileReference; name = AppDelegate.m; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8A2E800000000000000000 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD5C31800000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				3C75F9400000000000000000,
+				89501F400000000000000000,
+				EF9BD3400000000000000000,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1C0B8000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				2FBD32400000000000000000,
+				82F3BBC00000000000000000,
+				8C7E51000000000000000000,
+				92DAB4800000000000000000,
+				AD5C31800000000000000000,
+				C3151AC00000000000000000,
+				D95877000000000000000000,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730CC3000000000000000000 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81D1B800000000000000000;
+			buildPhases = (
+				7E8A2E800000000000000000,
+				2B53A5000000000000000000,
+				47107D800000000000000000,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Hello_ComplexUniversal;
+			productName = Hello_ComplexUniversal;
+			productReference = C3151AC00000000000000000;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		763AF4C00000000000000000 = {
+			isa = PBXProject;
+			targets = (
+				730CC3000000000000000000,
+			);
+			buildConfigurationList = A0A36A800000000000000000;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			productRefGroup = D1C0B8000000000000000000;
+			mainGroup = D1C0B8000000000000000000;
+			projectDirPath = "";
+			projectRoot = "";
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47107D800000000000000000 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C944800000000000000000,
+				380C6C000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B53A5000000000000000000 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4F93800000000000000000,
+				919F59000000000000000000,
+				75E280800000000000000000,
+				3E68CF800000000000000000,
+				22ABF7000000000000000000,
+				EB3246000000000000000000,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84E692000000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Info.plist";
+				PRODUCT_NAME = Hello_ComplexUniversal;
+			};
+			name = MonoTouch;
+		};
+		6929B9800000000000000000 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81D1B800000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E692000000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A36A800000000000000000 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6929B9800000000000000000,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 763AF4C00000000000000000;
+}
